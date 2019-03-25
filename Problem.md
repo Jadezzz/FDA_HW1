@@ -19,6 +19,7 @@ Dataset : https://drive.google.com/file/d/1JUM5y1o4hYdZIioy2gN-I22a8673S6Pt/view
 
 ## Desired output
 ![](https://i.imgur.com/pBg5fLo.png)
+![](https://i.imgur.com/y1e5Vj3.png)
 
 ## 2. Plot score distribution for the user with the most number of reviews
 
@@ -29,7 +30,9 @@ Dataset : https://drive.google.com/file/d/1JUM5y1o4hYdZIioy2gN-I22a8673S6Pt/view
 
 - axis-X : Date of reviews (transfer column "Time" -> Date)
 - axis-Y : Numbers of reviews in the date interval
-- Type : Bar graph
+
+## Desired output
+![](https://i.imgur.com/GL6Ecza.png)
 
 ## 4. Plot HeatMap using seaborn 
 
@@ -46,5 +49,9 @@ Dataset : https://drive.google.com/file/d/1JUM5y1o4hYdZIioy2gN-I22a8673S6Pt/view
 - **Note : you should filter out some cases with numerator > denominator**
 - Plot the distribution of helpful percent (hint: .hist())
 
+- **Ratio = -1, if both Helpfulness numerator & Helpfulness denominator are zero.**
+
+
 ## Desired output
 ![](https://i.imgur.com/f9V52RZ.png)
+
